@@ -1,13 +1,13 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# zakres poszukiwañ
+# zakres poszukiwaÅ„
 n = 150
  
-# lista liczb od 2 do n (0 i 1 nie s¹ liczbami pierwszymi)
+# lista liczb od 2 do n (0 i 1 nie sÄ… liczbami pierwszymi)
 numbers = list(range(2, n + 1))
   
-# usuwanie wielokrotnoœci liczb pierwszych
+# usuwanie wielokrotnoÅ›ci liczb pierwszych
 for prime in numbers:
     for multiple in range(2 * prime, n + 1, prime):
         if multiple in numbers:
@@ -16,4 +16,6 @@ for prime in numbers:
 print("Liczby pierwsze z zakresu od 2 do {0}:".format(n))
 print(numbers)
 
-//co to za badziewie... nie rób tego wiêcej
+#co to za badziewie... nie rÃ³b tego wiÄ™cej
+
+#HASHTAGHASHTAG
