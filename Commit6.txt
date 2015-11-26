@@ -1,0 +1,25 @@
+program sito_eratostenesa;
+const n = 100;
+var
+tablica : array[2..n] of boolean;
+i, b : integer;
+
+begin
+  for i := 2 to n do tablica[i] := true;
+
+  i := 1;
+  repeat
+    i := i + 1;
+    b := 2 * i;
+      repeat
+        tablica[b] := false;
+        b := b + i;
+      until (b > n);
+  until i > sqrt(n);
+  for i := 2 to n do
+  begin
+    if (tablica[i]) then
+    write(i, ' ');
+  end;
+  readln();
+end.

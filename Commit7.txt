@@ -1,0 +1,17 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# zakres poszukiwañ
+n = 150
+ 
+# lista liczb od 2 do n (0 i 1 nie s¹ liczbami pierwszymi)
+numbers = list(range(2, n + 1))
+  
+# usuwanie wielokrotnoœci liczb pierwszych
+for prime in numbers:
+    for multiple in range(2 * prime, n + 1, prime):
+        if multiple in numbers:
+            numbers.remove(multiple)
+
+print("Liczby pierwsze z zakresu od 2 do {0}:".format(n))
+print(numbers)

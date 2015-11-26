@@ -1,0 +1,30 @@
+
+
+  // Arithmetic - proste dzia³ania matematyczne
+ #include <iostream>
+
+ int main()
+ {
+    using namespace std;
+
+    int Liczba1 = 0;
+    int Liczba2 = 0;
+    int Wynik = 0;
+
+    // koniec linii to '\n'
+    cout << "Podaj pierwsza liczbe calkowita\n";
+    cin >> Liczba1;
+
+    // czasem mozna linie konczyc uzywajac ::std::endl
+    // ale nalezy pamietac, ze endl oczyszcza bufor
+    // co wiaze sie ze spadkiem wydajnosci 
+    // kiedy wykonywanych jest duzo takich operacji
+    cout << "Podaj druga liczbe calkowita" << endl;
+    cin >> Liczba2;
+
+    Wynik = Liczba1 + Liczba2;
+    cout << '\n' << Liczba1 << '+' << Liczba2 << '=' << Wynik << '\n';
+
+    return 0;
+ }
+

@@ -1,0 +1,6 @@
+PROGRAM commit2;
+
+BEGIN
+	WriteLn('AISDYGYAIBDFAUIBD');
+	ReadLn;
+END.
