@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+﻿#! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
 # zakres poszukiwań
@@ -19,3 +19,5 @@ print(numbers)
 #co to za badziewie... nie rób tego więcej
 
 #HASHTAGHASHTAG
+
+AGAYVFIYVAWDYVFAAWYVFI
