@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+	Printf("ASDCABCDHAHJSVFVHJWFVHJVHJCX");
+	Return 0;
+}
