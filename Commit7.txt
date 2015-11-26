@@ -15,3 +15,5 @@ for prime in numbers:
 
 print("Liczby pierwsze z zakresu od 2 do {0}:".format(n))
 print(numbers)
+
+//co to za badziewie... nie rób tego wiêcej
