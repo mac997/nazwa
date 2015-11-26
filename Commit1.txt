@@ -4,4 +4,8 @@ int main()
 {
 	Printf("ASDCABCDHAHJSVFVHJWFVHJVHJCX");
 	Return 0;
+<<<<<<< HEAD
 }adfadfAESDFafd
+=======
+}rgergaergergaesrg
+>>>>>>> remotes/origin/druga

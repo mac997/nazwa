@@ -6,6 +6,7 @@ wna, brak argumentow, zwraca typ calkowity int *
 /
 {
 char imie[20]; 
+<<<<<<< HEAD
 /* 
 deklaracja tablicy znakow 
 –
@@ -16,6 +17,9 @@ int i;
 /* caasdasd
 i
 printf("
+=======
+
+>>>>>>> remotes/origin/druga
 \
 nPodaj swoje imie ");
 // wydruk na
@@ -23,14 +27,14 @@ pisu
 na ekran,
 \
 n 
-–
+â€“
 nowa linia
 gets(imie);
 // wprowadzenie imieni
 a
 puts("Ile masz lat? "); 
 // wydruk napisu 
-–
+â€“
 funkcja puts(
 )
 scanf("%d",&i);
@@ -39,11 +43,11 @@ t
 printf("
 \
 n%s ma %d lat.",imie, i); 
-// wyœwietlenie imienia i la
+// wyÅ›wietlenie imienia i la
 t
 return 0;
 /* funkcja glowna zwraca 0 
-–
-pomyœlny koniec *
+â€“
+pomyÅ›lny koniec *
 /
 }
