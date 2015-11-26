@@ -6,7 +6,7 @@ public class Main
         boolean[] numbersTable = new boolean[n+1];
         for(int i = 2; i*i <= n; i++)
         {
-            if (numbersTable[i] == true)
+            if (numbersTable[i] == true)adasdasdfasdad
 		continue;
             for (int j = 2 * i ; j <= n; j += i)
 		numbersTable[j] = true;

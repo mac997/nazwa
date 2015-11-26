@@ -10,7 +10,7 @@
     int Liczba1 = 0;
     int Liczba2 = 0;
     int Wynik = 0;
-
+asdasdasdasd
     // koniec linii to '\n'
     cout << "Podaj pierwsza liczbe calkowita\n";
     cin >> Liczba1;

@@ -9,7 +9,7 @@ bool numbersTable[n + 1]; // tablica o indeksach od 0 do 100 | wszystkie false (
 int main()
 {
     for (int i = 2; i*i <= n; i++ ) // przeszukuj liczby od 2 do sqrt(n), 0 i 1 nie s¹ liczbami pierwszymi
-    {
+    {sfsefsefaca
         if (numbersTable[i] == true) // je¿eli dana liczba jest ju¿ wykreœlona
             continue; // to przejdŸ do kolejnej
         for (int j = 2*i ; j <= n; j += i) // przejdŸ od liczby 2*i do n przesuwaj¹c siê o i

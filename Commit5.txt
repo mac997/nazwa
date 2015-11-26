@@ -13,7 +13,7 @@ namespace ConsoleApplication
                 if (tab[i] == true)
                 {
                     continue;
-                }
+                }dfadfadcaefazdfsafasdad
                 for (int j = 2 * i; j <= n; j += i)
                 {
                     tab[j] = true;

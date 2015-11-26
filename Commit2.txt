@@ -1,4 +1,4 @@
-PROGRAM commit2;
+affsdafasdfePROGRAM commit2;
 
 BEGIN
 	WriteLn('AISDYGYAIBDFAUIBD');

@@ -1,4 +1,4 @@
-#include <stdio.h>
+asdada#include <stdio.h>
 int main(void) 
 /* 
 funkcja glo
@@ -13,8 +13,7 @@ deklaracja tablicy znakow
 –
 tekst na 19 znaków
 int i;
-/* 
-deklaracja zmiennej ca³kowitej 
+/* caasdasd
 i
 printf("
 \

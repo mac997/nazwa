@@ -12,7 +12,7 @@ for prime in numbers:
     for multiple in range(2 * prime, n + 1, prime):
         if multiple in numbers:
             numbers.remove(multiple)
-
+adasdasddasd
 print("Liczby pierwsze z zakresu od 2 do {0}:".format(n))
 print(numbers)
 
